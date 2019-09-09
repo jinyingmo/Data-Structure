@@ -1,3 +1,5 @@
+/** 创建一颗二叉树 */
+
 function Node(data, left, right) {
   this.data = data;
   this.left = left;
@@ -35,7 +37,7 @@ function insert(data) {
   }
 }
 
-export {
+module.exports = {
   Node
 }
 
