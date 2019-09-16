@@ -38,7 +38,8 @@ function insert(data) {
 }
 
 module.exports = {
-  Node
+  Node,
+  BST
 }
 
 let nst = new BST()
